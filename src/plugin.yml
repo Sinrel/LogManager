@@ -1,0 +1,28 @@
+name: LogManager
+main: org.sinrel.logManager.LogManager
+license: zlib/libpng
+author: Sinrel Group
+website: sinrel.org
+version: 0.3
+commands:
+ logclear:
+  permission : logmanager.logclear
+  usage: usage /logclear
+ logdelete:
+  usage: usage /logdelete
+  permission: logmanager.logdelete
+ loginfo:
+  usage: /loginfo
+  permission : logmanager.loginfo
+ logbackup:
+  usage: /logbackup
+  permission: logmanager.logbackup
+ logsize : 
+  usage: /logsize
+  permission : logmanager.logsize
+ logtime:
+  usage: /logtime
+  permission: logmanager.logtime
+ logauto:
+  usage: /logauto
+  permssions: logmanager.logauto
