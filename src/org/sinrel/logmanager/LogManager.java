@@ -96,15 +96,15 @@ public class LogManager extends JavaPlugin{
 		conf.set("en.deleteNo","Log file will already deleted on shutdown. You can not disable the removal");
 		conf.set("en.clearError", "Log file not found! Plugin can not clear log file");
 		conf.set("en.checkUpdateError","Check updates now not available");
-		conf.set("en.auto-logOn","autosaving logs on");
-		conf.set("en.auto-logOff", "autosaving logs off");
-		conf.set("en.auto-logTimeChanged", "autosaving logs time changed");
+		conf.set("en.auto-logOn","Autosaving logs on");
+		conf.set("en.auto-logOff", "Autosaving logs off");
+		conf.set("en.auto-logTimeChanged", "Autosaving logs time changed");
 		
 		conf.set("ru.clear","Содержимое лог файла успешно удалено");
 		conf.set("ru.delete","Лог файл будет удалён при выключении сервера");
 		conf.set("ru.deleteNo", "Удаление лог файла при выключении уже включено. Вы не можете отключить удаление");
 		conf.set("ru.clearError", "Лог файл не найден! Плагин не может его очистить");
-		conf.set("ru.checkUpdateError","Проверка обновления сейчас недоступно");
+		conf.set("ru.checkUpdateError","Проверка обновления сейчас недоступна");
 		conf.set("ru.auto-logOn","Авто сохранение логов включено");
 		conf.set("ru.auto-logOff", "Авто сохранение логов выключено");
 		conf.set("ru.auto-logTimeChanged", "время авто сохранения логов изменено");
